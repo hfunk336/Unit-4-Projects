@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-   New Perspectives on HTML5, CSS3 and JavaScript 6th Edition
+   New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
    Tutorial 11
    Case Problem 4
    

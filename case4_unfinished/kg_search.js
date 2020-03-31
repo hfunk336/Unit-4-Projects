@@ -25,7 +25,13 @@
 
 */
 
+window.onload(startUp);
 
+function startUp(){
+   drawWordSearch(letterGrid, wordArray);
+   showList(wordArray);
+   
+}
 
 
 
