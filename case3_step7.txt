@@ -1,0 +1,34 @@
+// Step 7a-f
+
+function formatPuzzle(puzzleLetter){
+	currentLetter = puzzleLetter;
+
+	for(i=0; i <= allLetters.length; i++){
+		allLetters[i].style.backgroundColor = "";
+	}
+	acrossClue.style.color = "";
+	downClue.style.color = "";
+
+	if(currentLetter.dataset.clueA != undefined){
+		acrossClue = document.getElementById(currentLetter.dataset.clueA);
+		acrossClue.style.color = "blue";
+		wordLetters = querySelectorAll("data-clue-A = " + data-clue-a);
+		for(i=0; i <= wordLetters.length; i++){
+			wordLetters[i].style.color = "rgb(231, 231, 255)";
+		{
+	}
+	if(currentLetter.dataset.clueD != undefined){
+		acrossClue = document.getElementById(currentLetter.dataset.clueD);
+		acrossClue.style.color = "red";
+		wordLetters = querySelectorAll("data-clue-A = " + data-clue-d);
+		for(i=0; i <= wordLetters.length; i++){
+			wordLetters[i].style.color = "rgb(255, 231, 231)";
+		{
+	}
+
+	if{typeDirection == "right"){
+		currentLetter.style.backgroundColor = "rgb(191, 191, 255)";
+	}else(
+		currentLetter.style.backgroundColor = "rgb(255, 191, 191)";
+	(
+}

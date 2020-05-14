@@ -1,0 +1,60 @@
+// Step 7a-f
+
+//step 7
+function formatPuzzle(puzzleLetter){
+	//step 7a
+	currentLetter = puzzleLetter;
+
+	//step 7b
+	for(i=0; i <= allLetters.length; i++){
+	//forgot to declare i as a var in the parameters for the for statement
+		allLetters[i].style.backgroundColor = "";
+	}
+
+	//step 7c
+	acrossClue.style.color = "";
+	downClue.style.color = "";
+
+	//step 7d
+	if(currentLetter.dataset.clueA != undefined){
+	//forgot an = sign, should be !==
+
+		//step 7d i
+		acrossClue = document.getElementById(currentLetter.dataset.clueA);
+		
+		//step 7d ii
+		acrossClue.style.color = "blue";
+
+		//step 7d iii
+		wordLetters = querySelectorAll("data-clue-A = " + data-clue-a);
+		//forgot document. before querySelectorAll and did not do the 
+		query selector at all. Forgot brackets and currentLetter.dataset.clueA
+
+		//step 7d iv
+		for(i=0; i <= wordLetters.length; i++){
+		//forgot to declare var i
+			wordLetters[i].style.color = "rgb(231, 231, 255)";
+		//it's supposed to be backgroundColor, not color.
+		{
+	}
+
+	//step 7e
+	if(currentLetter.dataset.clueD != undefined){
+		acrossClue = document.getElementById(currentLetter.dataset.clueD);
+		acrossClue.style.color = "red";
+		wordLetters = querySelectorAll("data-clue-A = " + data-clue-d);
+		for(i=0; i <= wordLetters.length; i++){
+			wordLetters[i].style.color = "rgb(255, 231, 231)";
+		{
+	}
+	//since I copy and pasted and changed the differences from 7d, there are the same
+	mistakes here
+
+	//step 7f
+	if{typeDirection == "right"){
+	// forgot an =
+		currentLetter.style.backgroundColor = "rgb(191, 191, 255)";
+	}else(
+		currentLetter.style.backgroundColor = "rgb(255, 191, 191)";
+	(
+}
